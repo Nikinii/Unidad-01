@@ -17,7 +17,7 @@ public class asignatura {
     boolean vigente;
     
     String mostrarinformacion(){
-    var informacion = "El nombre de la asignatura es " +nombre;
+    var informacion = "El nombre de la asignatura es " ;
     return informacion;    
     }
     

@@ -17,6 +17,7 @@ public class principal {
     progra.nombre="Programacion orientada a objetos ";
     progra.nombredeldocente="Mauricio Ortiz Ochoa";
     progra.vigente=true;
+    System.out.println(progra.mostrarinformacion());
     
     var progra2 = new asignatura();
     progra2.codigo=1;
@@ -25,6 +26,7 @@ public class principal {
     progra2.nombre="Programacion orientada a objetos ";
     progra2.nombredeldocente="Mauricio Ortiz Ochoa";
     progra2.vigente=true;
+    System.out.println(progra2.mostrarinformacion());
     
     var progra3 = new asignatura();
     progra3.codigo=1;
@@ -33,8 +35,9 @@ public class principal {
     progra3.nombre="Programacion orientada a objetos ";
     progra3.nombredeldocente="Mauricio Ortiz Ochoa";
     progra3.vigente=true;
+    System.out.println(progra3.mostrarinformacion());
     
-    System.out.println(progra.mostrarinformacion());
+    
     
     }
     
