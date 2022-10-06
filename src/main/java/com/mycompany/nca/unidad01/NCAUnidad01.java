@@ -87,17 +87,6 @@ public class NCAUnidad01 {
               
         
         
-                
-                
-        
-        
-        
-        
-        
-        
-        
-        
-
         System.out.println("mi perro se llama: " + Perro1.nombre + " tiene "
                 + Perro1.edad + " años y es un " + Perro1.raza + " y ademas pesa "+ Perro1.peso);
 
@@ -107,5 +96,29 @@ public class NCAUnidad01 {
         System.out.println("mi perro se llama: " + Perro3.nombre + " tiene "
                 + Perro3.edad + " años y es un " + Perro3.raza + " y ademas pesa "+ Perro3.peso);
 
+        
+        System.out.println("tengo una computadora " + Computadora1.marca + " del modelo " 
+                + Computadora1.modelo + " y de color "
+                + Computadora1.color + " que tiene una capacidad de " + Computadora1.capacidad);
+        
+        System.out.println("tengo una computadora " + Computadora2.marca + " del modelo " 
+                + Computadora2.modelo + " y de color "
+                + Computadora2.color + " que tiene una capacidad de " + Computadora2.capacidad);
+        
+        System.out.println("tengo una computadora " + Computadora3.marca + " del modelo " 
+                + Computadora3.modelo + " y de color "
+                + Computadora3.color + " que tiene una capacidad de " + Computadora3.capacidad);
+        
+        
+        System.out.println("me compre un carro de la marca " + Carro1.marca + " del modelo " 
+                + Carro1.modelo + " es de color " + Carro1.color + " y pesa " +Carro1.peso );
+        
+        System.out.println("me compre un carro de la marca " + Carro2.marca + " del modelo " 
+                + Carro2.modelo + " es de color " + Carro2.color + " y pesa " +Carro2.peso );
+        
+        System.out.println("me compre un carro de la marca " + Carro3.marca + " del modelo " 
+                + Carro3.modelo + " es de color " + Carro3.color + " y pesa " +Carro3.peso );
+        
+      
     }
 }
