@@ -119,6 +119,14 @@ public class NCAUnidad01 {
         System.out.println("me compre un carro de la marca " + Carro3.marca + " del modelo " 
                 + Carro3.modelo + " es de color " + Carro3.color + " y pesa " +Carro3.peso );
         
+        
+      System.out.println("Mi amigo se llama " + Persona1.nombre + " tiene " + Persona1.edad + 
+              " años y un peso de " + Persona1.peso + " y su numero de cedula es: " +Persona1.cedula);
       
+      System.out.println("Mi amigo se llama " + Persona2.nombre + " tiene " + Persona2.edad + 
+              " años y un peso de " + Persona2.peso + " y su numero de cedula es: " +Persona2.cedula);
+      
+      System.out.println("Mi amigo se llama " + Persona3.nombre + " tiene " + Persona3.edad + 
+              " años y un peso de " + Persona3.peso + " y su numero de cedula es: " +Persona3.cedula);
     }
 }
