@@ -34,7 +34,8 @@ public class principal {
     progra3.nombredeldocente="Mauricio Ortiz Ochoa";
     progra3.vigente=true;
     
-    System.out.println(progra.mostrarinformacion);
+    System.out.println(progra.mostrarinformacion());
+    
     }
     
 }
