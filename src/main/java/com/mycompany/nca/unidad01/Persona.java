@@ -10,8 +10,9 @@ package com.mycompany.nca.unidad01;
  */
 public class Persona {
    
-   String nombre;
-   int edad;
-   int cedula;
+   public String nombre;
+   public int edad;
+   public int cedula;
+   public float peso;
    
 }

@@ -9,5 +9,9 @@ package com.mycompany.nca.unidad01;
  * @author Niko
  */
 public class Carro {
+    public String modelo;
+    public String marca;
+    public String color;
+    public float peso;
     
 }

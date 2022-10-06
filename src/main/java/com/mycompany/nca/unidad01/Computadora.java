@@ -9,7 +9,8 @@ package com.mycompany.nca.unidad01;
  * @author Niko
  */
 public class Computadora {
-    String marca;
-    String modelo;
-    int capacidad;
+    public String modelo;
+    public int capacidad;
+    public String marca;
+    public String color;
 }

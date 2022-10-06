@@ -10,8 +10,9 @@ package com.mycompany.nca.unidad01;
  */
 public class Perro {
     
-    String nombre;
-    int edad;
-    String raza;
+    public String nombre;
+    public int edad;
+    public String raza;
+    public float peso;
     
 }
