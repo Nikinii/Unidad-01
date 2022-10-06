@@ -18,7 +18,8 @@ public class asignatura {
     boolean vigente;
 
     String mostrarinformacion() {
-        var informacion = "El nombre de la asignatura es ";
+        var informacion = "El nombre de la asignatura es" + this.nombre+" el docente es: "
+                + this.nombredeldocente + " la asignatura cuesta: " + this.costohoras();
         return informacion;
     }
 
