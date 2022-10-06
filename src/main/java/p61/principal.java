@@ -35,6 +35,7 @@ public class principal {
     progra3.nombre="Programacion orientada a objetos ";
     progra3.nombredeldocente="Mauricio Ortiz Ochoa";
     progra3.vigente=true;
+    
     System.out.println(progra3.mostrarinformacion());
     
     

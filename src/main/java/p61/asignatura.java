@@ -9,20 +9,21 @@ package p61;
  * @author Niko
  */
 public class asignatura {
-        int codigo;
+
+    int codigo;
     String nombre;
     int horas;
     String nombredeldocente;
     int costohoras;
     boolean vigente;
-    
-    String mostrarinformacion(){
-    var informacion = "El nombre de la asignatura es " ;
-    return informacion;    
+
+    String mostrarinformacion() {
+        var informacion = "El nombre de la asignatura es ";
+        return informacion;
     }
-    
-    double calcularprecio(){
-        var pepe = horas*costohoras;
-    return pepe;
+
+    double calcularprecio() {
+        var pepe = horas * costohoras;
+        return pepe;
     }
 }
