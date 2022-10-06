@@ -98,14 +98,14 @@ public class NCAUnidad01 {
         
         
 
-        System.out.println("mi perro se llama:" + Perro1.nombre + "tiene"
-                + Perro1.edad + "años y es un" + Perro1.raza + "y pesa"+ Perro1.peso);
+        System.out.println("mi perro se llama: " + Perro1.nombre + " tiene "
+                + Perro1.edad + " años y es un " + Perro1.raza + " y ademas pesa "+ Perro1.peso);
 
-        System.out.println("mi perro se llama:" + Perro2.nombre + "tiene"
-                + Perro2.edad + "años y es un" + Perro2.raza + "y pesa"+ Perro2.peso);
+        System.out.println("mi perro se llama: " + Perro2.nombre + " tiene "
+                + Perro2.edad + " años y es un " + Perro2.raza + " y ademas pesa "+ Perro2.peso);
 
-        System.out.println("mi perro se llama:" + Perro3.nombre + "tiene"
-                + Perro3.edad + "años y es un" + Perro3.raza + "y pesa"+ Perro3.peso);
+        System.out.println("mi perro se llama: " + Perro3.nombre + " tiene "
+                + Perro3.edad + " años y es un " + Perro3.raza + " y ademas pesa "+ Perro3.peso);
 
     }
 }
