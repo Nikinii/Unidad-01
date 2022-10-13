@@ -13,18 +13,20 @@ public class asignatura {
     int codigo;
     String nombre;
     int horas;
-    String nombredeldocente;
-    int costohoras;
+    String nombreDocente;
+    double costoHora;
     boolean vigente;
 
-    String mostrarinformacion() {
-        var informacion = "El nombre de la asignatura es" + this.nombre+" el docente es: "
-                + this.nombredeldocente + " la asignatura cuesta: " + this.costohoras();
-        return informacion;
+    String mostrarInformacion() {
+        var retorno = "La asignatura es: " + this.nombre + " el docente es: "
+                + this.nombreDocente + " la asignatura cuesta: "
+                + this.calcularCosto();
+        return retorno;
     }
 
-    double calcularprecio() {
-        var pepe = horas * costohoras;
-        return pepe;
+    double calcularCosto() {
+        var retorno = this.costoHora * this.horas;
+        return retorno;
     }
+
 }
