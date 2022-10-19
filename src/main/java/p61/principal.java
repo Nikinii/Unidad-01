@@ -14,33 +14,33 @@ public class principal {
 
         var progra = new asignatura();
         progra.codigo = 4752;
-        progra.costohoras = 6;
+        progra.costoHora = 6;
         progra.horas = 200;
         progra.nombre = "Programacion orientada a objetos ";
-        progra.nombredeldocente = "Mauricio Ortiz Ochoa";
+        progra.nombreDocente = "Mauricio Ortiz Ochoa";
         progra.vigente = true;
-        System.out.println(progra.mostrarinformacion());
-        System.out.println(progra.calcularprecio());
+        System.out.println(progra.mostrarInformacion());
+        System.out.println(progra.calcularCosto());
 
-        var progra2 = new Asignatura();
+        var progra2 = new asignatura();
         progra2.codigo = 4152;
-        progra2.costohoras = 5;
+        progra2.costoHora = 5;
         progra2.horas = 100;
         progra2.nombre = "Educacion fisica ";
         progra2.nombredeldocente = "Pedro Mauricio";
         progra2.vigente = true;
-        System.out.println(progra2.mostrarinformacion());
-        System.out.println(progra2.calcularprecio());
+        System.out.println(progra2.mostrarInformacion());
+        System.out.println(progra2.calcularCosto());
 
-        var progra3 = new Asignatura();
+        var progra3 = new asignatura();
         progra3.codigo = 2514;
-        progra3.costohoras = 7;
+        progra3.costoHora = 7;
         progra3.horas = 160;
         progra3.nombre = "Calculo diferencial ";
         progra3.nombredeldocente = "Ochoa Avila Juan";
         progra3.vigente = true;
-        System.out.println(progra3.mostrarinformacion());
-        System.out.println(progra3.calcularprecio());
+        System.out.println(progra3.mostrarInformacion());
+        System.out.println(progra3.calcularCosto());
 
         System.out.println("\n \n \n \n");  */
                  var auto1 = new Auto();
