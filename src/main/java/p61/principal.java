@@ -11,57 +11,61 @@ package p61;
 public class principal {
 
     public static void main(String[] args) {
-        /*
-        var progra = new Asignatura();
-        progra.codigo=1;
-        progra.costoHora=3.5;
-        progra.horas=160;
-        progra.nombre="Programación Orientada a Objetos";
-        progra.nombreDocente="Mauricio Ortiz Ochoa";
-        progra.vigente=true;
-        
-        System.out.println(progra.mostrarInformacion());
-         */
 
-        var auto1 = new Auto();
-        auto1.placa = "ABF8592";
-        auto1.marca = "Chevrolet";
-        auto1.nombrePropietario = "Juana Moreno";
-        auto1.precio = 15200;
-        auto1.color = "Amarillo";
-        auto1.year = 2017;
+        var progra = new asignatura();
+        progra.codigo = 4752;
+        progra.costohoras = 6;
+        progra.horas = 200;
+        progra.nombre = "Programacion orientada a objetos ";
+        progra.nombredeldocente = "Mauricio Ortiz Ochoa";
+        progra.vigente = true;
+        System.out.println(progra.mostrarinformacion());
+        System.out.println(progra.calcularprecio());
 
-        System.out.println(auto1.mostrarInfo() + " el país de origen de la marca es " + auto1.getPaisMarca());
-        System.out.println("La provincia de matrícula es: " + auto1.getProvincia());
-        System.out.println("El número de continente es: " + auto1.getNumeroContinente());
-        System.out.println("El auto tiene " + auto1.calcularEdad(2022) + " años");
+        var progra2 = new Asignatura();
+        progra2.codigo = 4152;
+        progra2.costohoras = 5;
+        progra2.horas = 100;
+        progra2.nombre = "Educacion fisica ";
+        progra2.nombredeldocente = "Pedro Mauricio";
+        progra2.vigente = true;
+        System.out.println(progra2.mostrarinformacion());
+        System.out.println(progra2.calcularprecio());
 
-        var auto2 = new Auto();
-        auto2.placa = "GDX0422";
-        auto2.marca = "Toyota";
-        auto2.nombrePropietario = "Mariana Ortiz";
-        auto2.color = "Gris";
-        auto2.precio = 25000;
-        auto2.year = 2019;
+        var progra3 = new Asignatura();
+        progra3.codigo = 2514;
+        progra3.costohoras = 7;
+        progra3.horas = 160;
+        progra3.nombre = "Calculo diferencial ";
+        progra3.nombredeldocente = "Ochoa Avila Juan";
+        progra3.vigente = true;
+        System.out.println(progra3.mostrarinformacion());
+        System.out.println(progra3.calcularprecio());
 
-        System.out.println(auto2.mostrarInfo() + " el país de origen de la marca es " + auto2.getPaisMarca());
-        System.out.println("La provincia de matrícula es: " + auto2.getProvincia());
-        System.out.println("El número de continente es: " + auto2.getNumeroContinente());
-        System.out.println("El auto tiene " + auto2.calcularEdad(2022) + " años");
+        System.out.println("\n \n \n \n");  */
+                 var auto1 = new Auto();
+        auto1.marca = "Toyota";
+        auto1.placa = "ABC25";
+        auto1.propietario = "Peres Juanito";
+        auto1.año = 2012;
+        auto1.precio = 20000;
+        auto1.color = "Rojo";
+        System.out.println(auto1.mostrarinfo());
+        System.out.println("El carro es de " + auto1.getPAismarca() + " ademas circula por " + auto1.getProvincia() + " \n El numero de continente del auto es de " + auto1.getNumeroContinente());
+        System.out.println("\nEl automovil conto con un iva de " + auto1.calcularIva() + "\nAdemas el precio comercial actual del carro es de " + auto1.calcularDepreciacion(2022) + "\nAdemas el costo de la matricula es de " + auto1.costodematricula(2022) + " y su estado para poder asegurar su carro es " + auto1.sepuedeasegurar(2022));
 
-        var auto3 = new Auto();
-        auto3.placa = "UBH0025";
-        auto3.marca = "Jetour";
-        auto3.nombrePropietario = "Juan Ortiz";
-        auto3.color = "Blanco";
-        auto3.precio = 9000;
-        auto3.year = 2004;
-
-        System.out.println(auto3.mostrarInfo() + " el país de origen de la marca es " + auto3.getPaisMarca());
-        System.out.println("La provincia de matrícula es: " + auto3.getProvincia());
-        System.out.println("El número de continente es: " + auto3.getNumeroContinente());
-        System.out.println("El auto tiene " + auto3.calcularEdad(2022) + " años");
-
+        /*var auto2 = new Auto();
+    auto2.marca="jetour";
+    auto2.placa="ABC25";
+    auto2.propietario="Peres Juanito";
+    System.out.println(auto2.mostrarinfo());
+    System.out.println("El carro es de "+auto2.getPAismarca());
+    
+    var auto3 = new Auto();
+    auto3.marca="Mercedes Bens";
+    auto3.placa="ABC25";
+    auto3.propietario="Peres Juanito";
+    System.out.println(auto3.mostrarinfo());
+    System.out.println("El carro es de "+auto3.getPAismarca());*/
     }
-
 }
